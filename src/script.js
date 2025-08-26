@@ -113,10 +113,6 @@ const tick = () => {
     whiteFish.position.y += Math.sin(elapsedTime * 0.8) * 0.006;
   }
 
-  console.log("break");
-  console.log(camera.position);
-  console.log(controls.target);
-
   if (purpleFish) {
     purpleFish.position.y +=
       Math.sin(elapsedTime * 1.2 + Math.PI * 0.5) * 0.006;
